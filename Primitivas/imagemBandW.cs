@@ -1,11 +1,11 @@
-public Bitmap imagememcinza(Bitmap imagem){
+public Bitmap imagememBW(Bitmap imagem){
     Color bw = new Color();
     int coluna = imagem.Width;
     int linha = imagem.Height;
     Bitmap imagemMod = new Bitmap(coluna,linha);
-    for (int i = 0; i < colunas; i++)
+    for (int i = 0; i < coluna; i++)
     {
-        for(int j = 0; j < altura; j++)
+        for(int j = 0; j < linha; j++)
         {
         int r = imagem.GetPixel(i, j).R;
         int g = imagem.GetPixel(i, j).G;
@@ -15,7 +15,7 @@ public Bitmap imagememcinza(Bitmap imagem){
             bw = Color.FromArgb(255,0,0,0);
         else if (cor > 126)
             bw = Color.FromArgb(255,255,255,255);
-        imagemMod.SetPixel(i, j, cor);
+        imagemMod.SetPixel(i, j, bw);
         }
     }
     return imagemMod;

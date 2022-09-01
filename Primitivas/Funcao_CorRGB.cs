@@ -1,4 +1,4 @@
-public Color corRGB(byte r, byte g, byte b)
+public Color corRGB(int r, int g, int b)
 {
     Color cor = new Color();
     cor = Color.FromArgb(r, g, b);

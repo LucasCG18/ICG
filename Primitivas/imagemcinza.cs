@@ -3,9 +3,9 @@ public Bitmap imagememcinza(Bitmap imagem){
     int coluna = imagem.Width;
     int linha = imagem.Height;
     Bitmap imagemMod = new Bitmap(coluna,linha);
-    for (int i = 0; i < colunas; i++)
+    for (int i = 0; i < coluna; i++)
     {
-        for(int j = 0; j < altura; j++)
+        for(int j = 0; j < linha; j++)
         {
         int r = imagem.GetPixel(i, j).R;
         int g = imagem.GetPixel(i, j).G;

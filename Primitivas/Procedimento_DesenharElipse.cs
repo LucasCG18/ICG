@@ -1,4 +1,4 @@
-public void desenharElipse(PaintEventArgs e, Pen caneta, int Xcentro, int Ycentro, int raiox, int raioy, int anguloInicial, int anguloFinal, Color cor)
+public void desenharElipse(PaintEventArgs e, Pen caneta, int Xcentro, int Ycentro, int raiox, int raioy, int anguloInicial, int anguloFinal)
         {
             for (int c = anguloInicial; c <= anguloFinal; c++)
             {

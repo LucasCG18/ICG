@@ -3,7 +3,7 @@
 */
 
 
-public void desenharCirculo(PaintEventArgs e, Pen caneta, int Xcentro, int Ycentro, int raio, int anguloInicial, int anguloFinal ,Color cor)
+public void desenharCirculo(PaintEventArgs e, Pen caneta, int Xcentro, int Ycentro, int raio, int anguloInicial, int anguloFinal)
         {
             for (int c = anguloInicial; c <= anguloFinal; c++)
             {

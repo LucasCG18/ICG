@@ -2,7 +2,7 @@
 *Colegio Técnico Antônio Teixeira Fernandes (Univap)
  *Curso Técnico em Informática - Data de Entrega: 07 / 09 / 2022
 * Autores do Projeto: Lucas Castelani Gouveia
-*
+*                     Fábio Miguel de Andrade
 * Turma: 3h
 * Atividade Projeto 3 Bi
  * ******************************************************************/

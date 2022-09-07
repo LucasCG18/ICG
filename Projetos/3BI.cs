@@ -1,3 +1,11 @@
+/*******************************************************************
+*Colegio Técnico Antônio Teixeira Fernandes (Univap)
+ *Curso Técnico em Informática - Data de Entrega: 07 / 09 / 2022
+* Autores do Projeto: Lucas Castelani Gouveia
+*
+* Turma: 3h
+* Atividade Projeto 3 Bi
+ * ******************************************************************/
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -35,8 +43,6 @@ namespace ProjetoICG3BI
                     g = imagem.GetPixel(i, j).G;
                     b = imagem.GetPixel(i, j).B;
                     
-                    
-
                     if (r - b > 50 && g - b > 50)
                     {
                         cor = corRGB(0, 0, 0, 0);
